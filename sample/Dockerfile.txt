@@ -1,4 +1,6 @@
 FROM ace-dev-only:latest
 
-COPY bars_aceonly /home/aceuser/bars
+RUN mkdir /app
+WORKDIR /app
+COPY MyFirstApp.bar /app/
 RUN ace_compile_bars.sh
