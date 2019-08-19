@@ -1,2 +1,0 @@
-# resource user password
-setdbparms::truststore dummy truststorepwd
