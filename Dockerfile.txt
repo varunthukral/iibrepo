@@ -1,4 +1,4 @@
-FROM ace-dev-only:latest
+FROM pawan4g/get-started:appConnect
 
 RUN mkdir /app
 WORKDIR /app
