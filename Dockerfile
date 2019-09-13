@@ -3,3 +3,4 @@ COPY MyFirstApp.bar /temp
 RUN ace_compile_bars.sh
 #hello
 #hello
+#hello1
